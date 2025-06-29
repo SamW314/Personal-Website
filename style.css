@@ -155,6 +155,33 @@ ul{
     left: 40vw;
     position: absolute;
 }
+.page3-scroll-box {
+    position: absolute;
+    right: 6vw;
+    bottom: 5vw;
+    height: 35vw;
+    overflow-y: auto;
+    margin: 0;
+}
+.project{
+    width: 25vw;
+}
+.large-project-view{
+    width: 30vw;
+}
+.viewing-project{
+    position: absolute;
+    left: 5vw;
+    bottom: 5vw;
+}
+.project-desctiption{
+    width: 30vw;
+}
+#page3-text{
+    position: absolute;
+    left: 38vw;
+    top: 5vw;
+}
 
 #page4-hand{
     bottom:11vw;
