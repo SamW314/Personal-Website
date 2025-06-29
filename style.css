@@ -2,12 +2,12 @@
 body {
     color: #2b3236;
     margin: 0;
+    padding: 0;
     text-align: center;
+    overflow-x: hidden;
 }
 img {
-    overflow-clip-margin: content-box;
     overflow: clip;
-    position: absolute;
 }
 h1{
     display:block;
@@ -30,15 +30,13 @@ p{
     font-weight: 500;
     font-size: 2.5vw;
     font-family: "Sansation";
-    text-align: left;
-    margin-top:0%
+    margin:0%
 }
 ul{
     display:block;
     font-weight: 500;
     font-size: 2.5vw;
     font-family: "Sansation";
-    text-align: left;
     margin-top:0%
 }
 
@@ -52,7 +50,9 @@ ul{
     width: 100vw;
     padding-top: 10px;
     padding-left: 0%;
+    padding-right: 0%;
     margin-left: 0%;
+    margin-right: 0%
 }
 
 
@@ -61,31 +61,37 @@ ul{
     width: 65vw;
     left:6vw;
     padding-left: 1.5%;
+    text-align: left;
 }
 #page1-bottom-square{
     bottom: 0;
     right: 0;
     width: 21vw; 
+    position: absolute;
 }
 #page1-middle-square{
     bottom: 11.5vw;
     right: 27.5vw;
     width: 10vw; 
+    position: absolute;
 }
 #page1-left-square{
     bottom: 18vw;
     right: 35vw;
     width:22vw; 
+    position: absolute;
 }
 #page1-top-square{
     bottom: 29vw;
     right: 0;
     width:16vw; 
+    position: absolute;
 }
 #page1-plant{
     bottom: 0;
     right: 0;
     width: 58vw;
+    position: absolute;
 }
 
 #page2-text{
@@ -93,6 +99,7 @@ ul{
     width: 65vw;
     left:39vw;
     top: 9vw;
+    text-align: left;
 }
 #skill-list{
     width: 52vw;
@@ -101,6 +108,7 @@ ul{
     height: 36vw;
     bottom: 2vw;
     left: 41vw;
+    position: absolute;
 }
 #page2-plant{
     width: 31vw;
@@ -108,33 +116,102 @@ ul{
     left: 0;
     padding-left: 0;
     margin-left: 0;
+    position: absolute;
 }
 #page2-top-square{
     bottom: 38.5vw;
     left: 19.5vw;
     width:11.5vw; 
+    position: absolute;
 }
 #page2-top-left-square{
     bottom: 35.5vw;
     left: 3vw;
     width:9.5vw; 
+    position: absolute;
 }
 #page2-middle-right-square{
     bottom: 24vw;
     left: 23.5vw;
     width:7vw; 
+    position: absolute;
 }
 #page2-middle-square{
     bottom: 14vw;
     left: 5.5vw;
     width:15vw; 
+    position: absolute;
 }
 #page2-bottom-square{
     bottom: 5vw;
     left: 2vw;
     width:12vw; 
+    position: absolute;
 }
 
+#page3-sun{
+    width: 20vw;
+    bottom: 0;
+    left: 40vw;
+    position: absolute;
+}
+
+#page4-hand{
+    bottom:11vw;
+    width:41vw;
+    right:0;
+    position: absolute;
+}
+#page4-text{
+    position: absolute;
+    width: 65vw;
+    left:10vw;
+    bottom:41vw;
+    text-align: center;
+}
+.logo{
+    width: 3vw;
+    height: 3vw;
+}
+.flex-content{
+    display: flex;
+}
+#linkedn{
+    position: absolute;
+    display: flex;
+    left: 18vw;
+    bottom: 36vw;
+    height: 5vw;
+    align-items: center;
+    gap: 5px;
+}
+#github{
+    position: absolute;
+    display: flex;
+    left: 18vw;
+    bottom: 31vw;
+    height: 5vw;
+    align-items: center;
+    gap: 5px;
+}
+#devpost{
+    position: absolute;
+    display: flex;
+    left: 18vw;
+    bottom: 26vw;
+    height: 5vw;
+    align-items: center;
+    gap: 5px;
+}
+#other-contact{
+    position: absolute;
+    left: 5vw;
+    bottom: 18vw;
+    line-height: 1.7
+}
+.bold{
+    font-weight: bold;
+}
 
 
 .sansation-light {
