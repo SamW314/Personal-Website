@@ -1,0 +1,126 @@
+
+body {
+    color: #2b3236;
+    margin: 0;
+    text-align: center;
+}
+img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+h1{
+    display:block;
+    font-weight: bold;
+    font-size: 6.5vw;
+    font-family: "Libertinus";
+    text-align: left;
+    margin:4% 0% 4% 0%;
+    
+}
+h2{
+    display:block;
+    font-weight: 500;
+    font-size: 3.5vw;
+    font-family: "Sansation";
+    text-align: left;
+    margin:0% 0% 2% 0%
+}
+p{
+    display:block;
+    font-weight: 500;
+    font-size: 2.5vw;
+    font-family: "Sansation";
+    text-align: left;
+    margin-top:0%
+}
+
+.home-page{
+    background-color: #ededed;
+    position: relative;
+    height: 57.1432vw;
+    width: 100vw;
+    padding-top: 10px;
+}
+.page1-text{
+    position:absolute;
+    width: 65vw;
+    left:6vw
+}
+.page1-bottom-square{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 21vw; 
+}
+.page1-middle-square{
+    position: absolute;
+    bottom: 11.5vw;
+    right: 27.5vw;
+    width: 10vw; 
+}
+.page1-left-square{
+    position: absolute;
+    bottom: 18vw;
+    right: 35vw;
+    width:22vw; 
+}
+.page1-top-square{
+    position: absolute;
+    bottom: 29vw;
+    right: 0;
+    width:16vw; 
+}
+.page1-plant{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 58vw;
+}
+
+
+
+
+.sansation-light {
+    font-family: "Sansation", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .sansation-regular {
+    font-family: "Sansation", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .sansation-bold {
+    font-family: "Sansation", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .sansation-light-italic {
+    font-family: "Sansation", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  .sansation-regular-italic {
+    font-family: "Sansation", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .sansation-bold-italic {
+    font-family: "Sansation", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+
+  .libertinus-math-regular {
+    font-family: "Libertinus Math", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  
+
