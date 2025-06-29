@@ -7,6 +7,7 @@ body {
 img {
     overflow-clip-margin: content-box;
     overflow: clip;
+    position: absolute;
 }
 h1{
     display:block;
@@ -15,7 +16,6 @@ h1{
     font-family: "Libertinus";
     text-align: left;
     margin:4% 0% 4% 0%;
-    
 }
 h2{
     display:block;
@@ -33,50 +33,107 @@ p{
     text-align: left;
     margin-top:0%
 }
+ul{
+    display:block;
+    font-weight: 500;
+    font-size: 2.5vw;
+    font-family: "Sansation";
+    text-align: left;
+    margin-top:0%
+}
 
-.home-page{
+.square{
+    position: absolute;
+}
+.page{
     background-color: #ededed;
     position: relative;
     height: 57.1432vw;
     width: 100vw;
     padding-top: 10px;
+    padding-left: 0%;
+    margin-left: 0%;
 }
-.page1-text{
-    position:absolute;
-    width: 65vw;
-    left:6vw
-}
-.page1-bottom-square{
+
+
+#page1-text{
     position: absolute;
+    width: 65vw;
+    left:6vw;
+    padding-left: 1.5%;
+}
+#page1-bottom-square{
     bottom: 0;
     right: 0;
     width: 21vw; 
 }
-.page1-middle-square{
-    position: absolute;
+#page1-middle-square{
     bottom: 11.5vw;
     right: 27.5vw;
     width: 10vw; 
 }
-.page1-left-square{
-    position: absolute;
+#page1-left-square{
     bottom: 18vw;
     right: 35vw;
     width:22vw; 
 }
-.page1-top-square{
-    position: absolute;
+#page1-top-square{
     bottom: 29vw;
     right: 0;
     width:16vw; 
 }
-.page1-plant{
-    position: absolute;
+#page1-plant{
     bottom: 0;
     right: 0;
     width: 58vw;
 }
 
+#page2-text{
+    position: absolute;
+    width: 65vw;
+    left:39vw;
+    top: 9vw;
+}
+#skill-list{
+    width: 52vw;
+}
+#page2-line{
+    height: 36vw;
+    bottom: 2vw;
+    left: 41vw;
+}
+#page2-plant{
+    width: 31vw;
+    bottom: 0;
+    left: 0;
+    padding-left: 0;
+    margin-left: 0;
+}
+#page2-top-square{
+    bottom: 38.5vw;
+    left: 19.5vw;
+    width:11.5vw; 
+}
+#page2-top-left-square{
+    bottom: 35.5vw;
+    left: 3vw;
+    width:9.5vw; 
+}
+#page2-middle-right-square{
+    bottom: 24vw;
+    left: 23.5vw;
+    width:7vw; 
+}
+#page2-middle-square{
+    bottom: 14vw;
+    left: 5.5vw;
+    width:15vw; 
+}
+#page2-bottom-square{
+    bottom: 5vw;
+    left: 2vw;
+    width:12vw; 
+}
 
 
 
